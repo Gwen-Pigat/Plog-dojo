@@ -1,0 +1,23 @@
+<div class="container">
+<h1> - Log center - </h1>
+<form action="/log" method="post">
+  <select name="auteur">
+    <option value="Gwen ">Gwen</option>
+    <option value="Olivier">Olivier</option>
+    <option value="Autre">Autre</option>
+  </select>
+  <br>
+  <textarea name="message"></textarea>
+  <br>
+  <input type="submit" value="Envoyer">
+</form>
+<ul>
+  <% @sage.each do |post| %>
+  <li><strong><%= post.auteur%> a écrit :<br></strong><%= post.body%> <strong><br><%= post.created_at.strftime('%H:%M , %d / %m / %y')%></strong><br>
+<a href="/delete/<%=post.id%>">Supprimer</a>
+<a href="/modify/<%=post.id%>">Modifier</a>
+  </li>
+  <%end%>
+</ul>
+  
+</div>

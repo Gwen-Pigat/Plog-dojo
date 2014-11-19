@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <title>pLog</title>
+  </head>
+  <body>
+
+
+
+
+<script>
+$(document).ready(function(){
+
+  $("h1").click(function(){
+    $(this).hide(4000);
+  });
+
+});
+</script>
+    <%= yield %>
+  </body>
+</html>

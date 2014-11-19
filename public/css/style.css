@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'police-titre';
+	src: url('../fonts/Mastoc_PersonalUseOnly.ttf');
+}
+
+@font-face {
+	font-family: 'police-main';
+	src: url('../fonts/CaviarDreams.ttf');
+}
+
+body {
+	background-color: #EFEFCE;
+}
+
+button {
+
+	width: 100px;
+}
+
+span {
+	text-align: center;
+}
+
+h1 {
+	margin: auto;
+	width: 35%;
+	font-family: 'police-titre';
+	font-size: 50px;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 10%;
+}
+
+h1:hover {
+	color: #EFEFCE;
+	background-color: #24334C;
+	transition: 0.5s;
+}
+
+form {
+	text-align: center;
+}
+
+textarea {
+	border-radius: 5px;
+	border: 3px #24334C solid;
+	color: #24334C;
+	width: 250px;
+	height: 70px;
+	border-bottom: 30%;
+}
+
+textarea:hover {
+	color: #EFEFCE;
+	background-color: #24334C;
+	transition: 0.5s;
+}
+
+select {
+	border-radius: 2px;
+	border: 3px #24334C solid;
+	background-color: white;
+	color: #24334C;
+	margin: auto;
+	width: 100px;
+	height: 50px;
+	margin-bottom: 2%;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+select:hover {
+	color: #EFEFCE;
+	background-color: #24334C;
+	transition: 0.5s;
+}
+
+input {
+	border-radius: 2px;
+	border: 3px #24334C solid;
+	color: #EFEFCE;
+	background-color: #24334C;
+	margin: auto;
+	width: 80px;
+	height: 30px;
+	border-bottom: 10%;
+		box-shadow: 2px 2px 0px 1px #24334C;
+}
+
+li {
+	position: relative;
+	font-family: 'police-main';
+	word-wrap: break-word;
+	border-radius: 15px;
+	margin-top: 5%;
+	border-radius: 2px;
+	border: 3px #24334C solid;
+	color: #EFEFCE;
+	background-color: #24334C;
+	box-shadow: 0 0 3px 3px #24334C;
+}
+
+li:hover {
+	color: #24334C;
+	background-color: white;
+	border: 3px #24334C solid;
+	transition: 0.5s;
+	box-shadow: 2px 2px 0px 1px #24334C;
+}
